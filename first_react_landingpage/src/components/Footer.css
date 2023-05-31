@@ -1,0 +1,48 @@
+
+#footerSection{
+    display: grid;
+    grid-template-columns: .2fr 1fr 1fr 1fr 1fr .2fr;
+    grid-template-rows: repeat(2,1fr);
+    padding: 0 3%;
+    margin-top: 50px;
+}
+
+#footerSection span{
+    background-color: grey;
+}
+
+#footerSection div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    height: 100%;
+}
+
+#footerSection span{
+    margin-right: 12px;
+}
+
+#footerSection div h5{
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: clamp(1rem,1.2vw,2rem);
+    color: rgb(0, 136, 255);
+}
+
+#footerSection div h6{
+    text-align: left;
+    width:100%;
+    margin-top: 40px;
+    font-size: clamp(1rem,1.2vw,2rem);
+
+}
+
+#footerSection div p{
+    width: 100%;
+    text-align: left;
+    font-size: clamp(1rem,1.2vw,2rem);
+    color:green
+}

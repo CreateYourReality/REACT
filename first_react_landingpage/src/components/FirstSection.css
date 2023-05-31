@@ -1,0 +1,57 @@
+section article{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding:  0 5% 0 15%;
+    margin-top: -150px;
+}
+
+section article p{
+    text-align: left;
+    font-size: clamp(1rem,2vw,4rem);
+    width: 90%;
+    margin-top: 3px;
+}
+
+section h3{
+    color: green;
+    font-size: clamp(1rem,2vw,3rem);
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+section h4{
+    font-size: clamp(1rem,2.5vw,4rem);
+    text-align: center;
+    width: 50%;
+}
+
+section article h3{
+    color: black;
+}
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section article div:nth-of-type(1){
+    height: clamp(1rem,10vw,20rem);
+}
+section article div:nth-of-type(2){
+    height: clamp(1rem,10vw,20rem);
+}
+
+.articleSection div h3::before{
+    background: url("../assets/img/globe-line.svg") no-repeat;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 -20px;
+}

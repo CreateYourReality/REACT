@@ -1,0 +1,22 @@
+h3{
+    font-size: clamp(1rem,4vw,6rem);
+    color: white;
+    margin-bottom: -20px;
+}
+
+.articleP{
+    font-size: clamp(1rem,1vw,1.2rem);
+    width: 100%;
+}
+
+.articleDiv{
+    margin-bottom: 20px;
+    width: 25%;
+    border-right: 1px white solid;
+    text-align: center;
+}
+
+.articleDiv:last-of-type{
+    border-right: none;
+}
+
