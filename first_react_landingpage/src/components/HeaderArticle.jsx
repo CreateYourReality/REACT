@@ -1,9 +1,9 @@
 import "./HeaderArticle.css"
 
-const HeaderArticle = () => {
+const HeaderArticle = (number) => {
     return (  
         <div className="articleDiv">
-            <h3>1505</h3>
+            <h3>{number.value}</h3>
             <p className="articleP">Cups of Coffee</p>
         </div>
     );

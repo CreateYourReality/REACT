@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header/>
       <FirstSection/>
-      <Footer/>
+      <Footer value="Pizza"/>
     </div>
   )
 }
