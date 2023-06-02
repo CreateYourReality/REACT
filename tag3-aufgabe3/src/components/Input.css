@@ -1,0 +1,17 @@
+label{
+    display: block;
+    margin-left: -300px;
+}
+
+p{
+    display: inline-block;
+    margin:0;
+}
+
+form{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
